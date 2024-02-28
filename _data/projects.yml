@@ -2,15 +2,93 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# - project: jazznotes.io
+#   role: Founder & Primary Developer
+#   duration: 2012 &mdash; Present
+#   # url: "#"
+#   description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# # Springfield Community Outreach Group
+# - project: Springfield Community Outreach Group
+#   role: Co-Founder & Organizer
+#   duration: 2007 &mdash; Present
+#   # url: "#"
+#   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+
+- project: Predictive Housing Insights Platform
+  role: Independent Project
+  duration: Jan 2024
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: <ul><li>Developed a Flask-based API Service for predicting housing prices using CatBoost, deployed on AWS ECS (Fargate). Integrated with an Application Load Balancer and implemented monitoring/logging via CloudWatch.</li><li>Established a data pipeline by using Lambda to initiate the transfer of prediction data from S3 to a Redshift cluster. Leveraged PySpark through AWS EMR for targeted sale advertisements based on customer house profiling.</li><li>Automated daily model retraining using Lambda and EventBridge, extracting data from RDS MariaDB, updating model parameters in DynamoDB, and saving the new model to S3.</li><li>Created interactive Quicksight dashboards featuring scatter plots and histograms to analyze feature relationships and frequencies in training data.</li></ul>
+
+
+- project: Scalable Methods for Debiasing Pretrained Language Models
+  role: Advanced Natural Language Processing
+  duration: Dec 2023
+  # url: "#"
+  description: <ul><li>Implemented two scalable debiasing methods for Pretrained Language Models (PLM) - one utilizing behavioral cloning and the other employing an attention mechanism. Successfully reduced the average score difference (%) from 3.5 to ~1.4 and decreased the average standard deviation from 4 to ~2, outperforming BARTScore with debiasing adapters.</li><li>Utilized the 'BiasNLI' dataset for training and applied few-shot prompting/learning techniques on GPT-3.5 (OpenAI) and GPT-J-6B (EleutherAI Hugging Face), in conjunction with 'Winogender,' to construct the test dataset.</li></ul>
+
+
+# - project: Empowering Prosumers
+#   role: Time Series Forecasting in Python
+#   duration: Dec 2023
+#   url: "https://github.com/atharvamm/CMU_95835_Time_Series_Forecasting/blob/main/code/team_project/project.md"
+#   description: <ul><li>Conducted time series analysis on electricity prices, production, and consumption, applying a variety of forecasting models, including ETS, ARIMA, XGBoost, LTSFNLinear and FB Prophet, to estimate cost savings for prosumers. Achieved high forecasting accuracy using XGBoost Regressor, resulting in a mean absolute percentage error (MAPE) of 0.28.</li></ul>
+
+- project: A Data-Driven Yelp Restaurant Recommender System
+  role: Big Data and Large Scale Computing
+  duration: Dec 2023
+  url: "https://github.com/atharvamm/CMU_95869_Big_Data_and_Large_Scale_Computing/blob/main/code/hw5/hw5_yelp_student.ipynb"
+  description: <ul><li>Utilized PySpark and MLlib for exploratory data analysis (EDA) on the Yelp Academic Dataset. Employed tree ensemble methods, including Random Forests and Gradient Boosted Trees, to identify factors within reviews contributing to humorous content.</li><li>Implemented collaborative filtering with ALS for restaurant recommendations on the Yelp Academic Dataset. Leveraged the FP-Growth algorithm in MLlib to identify frequent itemsets from user restaurant interactions, enhancing the precision of restaurant recommendations.</li></ul>
+
+
+- project: Click-Through Rate Prediction
+  role: Big Data and Large Scale Computing (Mini-Project)
+  duration: Nov 2023
+  url: "https://github.com/atharvamm/CMU_95869_Big_Data_and_Large_Scale_Computing/blob/main/code/hw3/amhaskar_hw3_ctr_student-2023.ipynb"
+  description: <ul><li>Click-Through Rate Prediction with Logistic Regression on a subset of Criteo's 1TB Click Logs Dataset in PySpark.</li></ul>
+
+
+- project: deliverulator
+  role: Engineering Computation
+  duration: Nov 2023 - Dec 2023
+  url: "https://github.com/atharvamm/deliverulator"
+  description: <ul><li>Collaborated in a team of five to design and implement a simulated delivery system/game using C++ and OpenGL.</li><li>Developed a path planner utilizing Dijkstra's shortest path algorithm to optimize robot navigation across CMU's campus.</li></ul>
+
+
+- project: SciNER
+  role: Advanced Natural Language Processing
+  duration: Oct 2023
+  # url: "#"
+  description: <ul><li>Developed a scientific named entity recognition system for NLP papers using fine-tuned BERT and SciDeBERTa(CS) models from Hugging Face Transformers, achieving an accuracy of 57.8% on the test dataset. The obtained accuracy score secured a second-place ranking in the class Kaggle leaderboard.</li></ul>
+
+- project: StreamRec
+  role: Machine Learning in Production
+  duration: May 2023
+  # url: "#"
+  description: <ul><li>Developed a movie recommendation system using continuous Kafka stream ratings. Conducted A/B testing on separate Docker containers to optimize user recommendations from two deployed models.</li><li>Implemented an ETL pipeline to gather, preprocess, and store data from various sources into a PostgreSQL database, integrating automated testing with PyTest and Jenkins for continuous integration.</li></ul>
+
+- project: Robust Convolutional Malware Classification using Defensive Distillation and Feature Squeezing
+  role: Introduction to Deep Learning
+  duration: May 2023
+  # url: "#"
+  description: <ul><li>Improved the robustness of MalConv against adversarial attacks by implementing defensive strategies like defensive distillation and feature squeezing, resulting in a 12% increase in classification accuracy and a 1.8% improvement in precision. Evaluated model resilience through testing against the L2 - Fast Gradient Sign Method (FGSM) attack.</li></ul>
+
+# - project: Streamlining DenseFusion -  Network Distillation for Efficient 6D Object Pose Estimation in Mobile Robotics
+#   role: Computational Engineering and Robotics Laboratory (CERLAB)
+#   duration: Apr 2023
+#   # url: "#"
+#   description: <ul><li>Applied network distillation techniques to a 6D object pose estimation network(DenseFusion), resulting in a 40% reduction in model parameters, enabling the creation of a streamlined network tailored for mobile robotic applications.</li></ul>
+
+- project: Face Recognition and Verification with ConvNeXt 
+  role: Introduction to Deep Learning
+  duration: Feb 2023
+  # url: "#"
+  description: <ul><li> Implemented a face recognition and verification system using ConvNeXt, the project concentrated on face classification and verification, making use of a subset of the VGGFace2 dataset. The ConvNeXt network served as a feature extractor, employing convolutional layers to generate face embeddings for multi-class classification. Advanced loss functions, such as ArcFace, were explored to improve accuracy. During the face verification phase, the system efficiently compared face pairs using cosine similarity. The achieved classification accuracy was 88.928%, and the verification accuracy reached 57%.</li></ul>
+
+# - project: CrackDetect Pro
+#   role: Computer Vision for Engineers
+#   duration: Dec 2022
+#   url: "https://github.com/atharvamm/CrackRecog"
+#   description: <ul><li>Developed a Tkinter GUI application for detecting cracks in mobile phones, by implementing a U-Net Network for image segmentation and utilizing OpenCV for crack detection in the segmented images. The application not only identifies cracks on mobile phone screens but also estimates the repair cost based on the severity and extent of the cracks. This project involved the integration of computer vision techniques for image processing and analysis, providing a comprehensive solution for both crack detection and cost estimation for mobile phone repair.</li></ul>

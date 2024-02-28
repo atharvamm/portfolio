@@ -1,19 +1,45 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# - company: Springfield International Human Rights Outreach
+#   position: VP of Global Communications
+#   duration: Oct, 2013 &mdash; Present
+  # summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# # Director of Digital Stratgy
+# - company: United Nations Human Rights Council
+#   position: Director of Digital Strategy
+#   duration:  Jun, 2010 &mdash; Sept, 2013
+#   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# # Communications Coordinator
+# - company: Springfield Women & Children's Center
+#   position: Communications Coordinator
+#   duration:   Jun, 2008  &mdash; May, 2010
+#   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+
+
+- company: Skylar Capital Management LP
+  position: Data Science Intern
+  duration: Jun 2023 &mdash; Aug 2023
+  summary: <ul class="resume-item-list"><li> Implemented a cascaded computer vision system in PyTorch, incorporating YOLOv8s for object detection, and designed an autoencoder (Generative AI) network for anomaly detection.</li><li> Achieved a 70% reduction in false positive alerts for image activity recognition by fine-tuning YOLOv8s and implementing the autoencoder.</li><li> Orchestrated the deployment of Docker container on Azure Linux VM instance, managed development tasks through Azure DevOps for CI/CD, and adapted an existing Selenium WebDriver codebase to scrape training data. Subsequently, refined, cleaned, and labeled datasets using Label Studio for enhanced generalizability.</li><li> Used Llama-2 for PDF report analysis, combining question answering and summarization. Incorporated Retrieval Augmented Generation (RAG) techniques via LangChain and Hugging Face for intelligent document retrieval and summarization in Chroma DB.</li><li> Fine-tuned the LLAMA-2 large language model (LLM) with Hugging Face Transformers and LoRA on the FinQA dataset, improving a LangChain and Llama-2-powered chatbot for precise question answering.</li></ul>
+
+- company: Computational Engineering and Robotics LAB (CERLAB)
+  position: Graduate Student Researcher
+  duration: Sep 2022 &mdash; May 2023
+  summary: <ul class="resume-item-list"><li>Optimized 6D Object Pose Estimation (Dense Fusion) Model, via customized network distillation, reducing inference time by 35% and parameters by 40%. Enabled real-time pose estimation with a marginal 7.5% increase in the ADD-S metric.</li><li>Implemented a path planning system in C++ for UGVs using the A* Search Algorithm, with visualization in OpenGL for simulating UGV motion inside facilities.</li><li>Established a predictive maintenance system for Hydraulic Construction Equipment employing machine learning techniques including TCN (Temporal Convolutional Network) and Isolation Forest.</li><li>Utilized Git/GitHub for continuous integration/continuous deployment (CI/CD) processes, version control, and collaboration with fellow graduate students in the laboratory.</li></ul>
+
+- company: Dhanvarsha Finvest Limited
+  position: Junior Executive Data Scientist
+  duration: Sep 2021 &mdash; Jun 2022
+  summary: <ul class="resume-item-list"><li> Automated reports using PyMySQL and openpyxl, saving the finance and accounting team over 25 hours per week, coupled with dynamic data visualization using Matplotlib.</li><li> Identified areas for policy improvement through exploratory data analysis (EDA). Effectively communicated findings to the risk analyst, resulting in a 5% increase in loan disbursal rates.</li><li> Collaborated with DevOps engineer using agile methodologies to develop an in-house risk assessment system as a REST API service using Django Rest Framework. Utilized Named Entity Recognition (Regex Templates, DistilBert) and Optical Character Recognition methods to extract information from customer data and developed an LSTM model to forecast customer bank balance, reducing application processing time by 50%.</li><li>Migrated data from MySQL and MongoDB to CRM system, enhancing customer service by enabling efficient prospect identification and reducing issue resolution time by 20%.</li><li>Spearheaded the transformation of analytics processes by leveraging PySpark and SparkSQL, resulting in a remarkable acceleration of report generation from over 3 hours to under 3.5 minutes, providing timely and critical insights for senior management on loan rejection policies and counts from 3 million+ records distributed across 10+ tables.</li></ul>
+
+- company: Roboslog
+  position: CAD and Product Design Intern
+  duration: Sep 2020 &mdash; Dec 2020
+  summary: <ul class="resume-item-list"><li> Conducted market research on surgical robot demand, tested forecasting models (ETS, ARIMA, XGBoost, Random Forest), and chose XGBoost Regressor for its low RMSE of 20. Applied it to accurately forecast demand for the next 3 years.</li><li> Applied logistic regression with Lasso regularization, employing polynomial features and a logistic activation function to model the posterior probability of plant dryness. Integrated data from diverse sensors, optimizing irrigation decisions and resulting in water conservation, cost savings, and enhanced crop yield for farmers.</li><li> Designed CAD Model and visual rendering for UV Control Panel,PCB Box and SEP with rails and Surgical Robotic Arm using Autodesk Fusion 360 and Inventor.</li></ul>
+
+- company: Catrobotics
+  position: Trainee Intern
+  duration: Dec 2019 &mdash; Jan 2020
+  summary: <ul class="resume-item-list"><li> Developed a Tkinter GUI application for detecting cracks in differential casing images by implementing a U-Net network for image semantic segmentation and utilizing OpenCV for crack detection in the segmented images. Authored a comprehensive report that outlined the project's methodology, presented the results, and discussed the implications. Successfully communicated the findings to a non-specialized audience during a presentation.</li><li> Implemented predictive linear regression models employing Linear Regression, Lasso Regression, and Ridge Regression in scikit-learn, leveraging CNC parameters and geometric attributes of prior components. Achieved a 20% increase in manufacturing accuracy by precisely calculating offset values for CNC and VMC machines.</li></ul>

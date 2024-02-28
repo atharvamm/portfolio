@@ -1,13 +1,30 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+# - degree: Bachelor of Arts, Human Rights
+#   uni: Yale University
+#   year: 2004 &mdash; 2008
+#   awards:
+#     - award: Summa Cumme Laude graduate
+#   summary: If you had any meaningful roles at college, feel free to write about them here
+
+# - degree: High School Diploma
+#   uni: Springfield High School
+#   year: 2004
+#   award: Most likely to succeed
+#   summary: You can choose to have either a single or multiple awards
+
+
+- degree: Master of Science in Computational Design and Manufacturing
+  uni: Carnegie Mellon University
+  year: 2023
+  # awards:
+  #   - award: Summa Cumme Laude graduate
+  summary: Time Series Forecasting in Python, Big Data and Large-scale Computing, Advanced Natural Language Processing, Engineering Computation, Machine Learning in Production, Introduction to Deep Learning, Introduction to Machine Learning, Computer Vision for Engineers, Engineering Optimization
+
+
+- degree: Bachelor of Technology in Mechanical Engineering
+  uni: National Institute of Technology
+  year: 2021
+  # awards:
+  #   - award: Summa Cumme Laude graduate
+  # summary: If you had any meaningful roles at college, feel free to write about them here

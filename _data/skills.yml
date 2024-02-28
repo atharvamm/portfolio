@@ -1,12 +1,16 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Programming and Scripting Languages
+  description: Python (Pandas, PyTorch, NumPy, Matplotlib, sklearn, OpenCV, Tensorflow), MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, C++, R Programming, 
 
 # Communications strategy
 - skill: Communications strategy
   description: Content and marketing strategy,
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Big Data
+  description: Spark (PySpark, MLlib, SparkSQL)
+
+- skill: Analytics and Visualization Tools
+  description: MS Excel, Jupyter Notebook, Tableau
+
+- skill: Other
+  description: Microsoft Office, , Git/GitHub, Docker, AWS, Azure
